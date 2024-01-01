@@ -1,18 +1,18 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 
 const config = {
-  title: 'My Site',
+  title: 'Slang Filter Global',
   tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/slang-filter-global_transparent.svg',
   url: 'https://your-docusaurus-site.example.com',
   baseUrl: '/',
-  organizationName: 'facebook',
-  projectName: 'docusaurus',
+  organizationName: 'hyeonho2010',
+  projectName: 'Slang Filter Global',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'ko',
+    locales: ['ko'],
   },
 
   presets: [
@@ -38,12 +38,12 @@ const config = {
 
   themeConfig:
     ({
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/slang-filter-global_transparent.svg',
       navbar: {
-        title: 'My Site',
+        title: 'Slang Filter Global',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/slang-filter-global_transparent.svg',
         },
         items: [
           {
@@ -54,7 +54,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/hyeonho2010/slang-filter-global-docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -103,7 +103,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Hyeonho Kang. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
