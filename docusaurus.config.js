@@ -2,17 +2,17 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 const config = {
   title: 'Slang Filter Global',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Library that detects and blocks slang.',
   favicon: 'img/slang-filter-global_transparent.svg',
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://slang-filter-global-docs.vercel.app',
   baseUrl: '/',
   organizationName: 'hyeonho2010',
   projectName: 'Slang Filter Global',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
-    defaultLocale: 'ko',
-    locales: ['ko'],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [
@@ -42,7 +42,7 @@ const config = {
       navbar: {
         title: 'Slang Filter Global',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Slang Filter Global Logo',
           src: 'img/slang-filter-global_transparent.svg',
         },
         items: [
